@@ -1,0 +1,225 @@
+HVAC SERVICE TECHNICIAN REFERENCE MANUAL
+Residential Split Systems
+
+
+SECTION 1: THE REFRIGERATION CYCLE
+
+An air conditioner does not create cold. It moves heat from one place to
+another. Understanding this single idea prevents most of the diagnostic
+mistakes new technicians make.
+
+The cycle has four main components arranged in a closed loop. Refrigerant
+travels continuously through all four, changing state as it goes.
+
+The compressor is the pump of the system. It takes low pressure refrigerant
+vapour from the suction line and raises both its pressure and its temperature.
+It sits in the outdoor unit and draws more electrical current than any other
+component. A compressor is designed to pump vapour only. Liquid refrigerant
+entering the compressor cannot be compressed and will destroy the valves or
+break the connecting rods. This failure mode is called slugging.
+
+The condenser is the coil in the outdoor unit. Hot high pressure vapour enters
+at the top and gives up heat to the outdoor air as a fan pulls air across the
+fins. As the refrigerant loses heat it condenses into a liquid. By the time it
+leaves the bottom of the condenser it should be entirely liquid and slightly
+cooler than its condensing temperature. That temperature difference is called
+subcooling.
+
+The metering device creates the pressure drop that makes the whole cycle work.
+High pressure liquid enters, and a sudden restriction causes a sharp drop in
+pressure on the other side. Common types are the fixed orifice or piston, the
+capillary tube, and the thermostatic expansion valve. A thermostatic expansion
+valve, usually shortened to TXV, adjusts the flow based on the temperature of
+the suction line, which makes it far more adaptable than a fixed orifice.
+
+The evaporator is the indoor coil. Low pressure liquid refrigerant enters and
+immediately begins to boil, absorbing heat from the indoor air blown across it
+by the blower. The refrigerant leaves as a vapour, slightly warmer than its
+boiling point. That temperature difference is called superheat. The vapour
+returns through the suction line to the compressor and the cycle repeats.
+
+
+SECTION 2: REFRIGERANTS
+
+R-22, a hydrochlorofluorocarbon, was the residential standard for decades.
+Production and import in the United States ended on 1 January 2020 under the
+Montreal Protocol. Existing systems can still be serviced using recovered or
+stockpiled stock, but prices have risen sharply. Its ozone depletion potential
+is 0.055 and its global warming potential is 1810.
+
+R-410A is a hydrofluorocarbon blend that replaced R-22 in most residential
+split systems. It has zero ozone depletion potential but a global warming
+potential of 2088. It operates at roughly fifty to seventy percent higher
+pressure than R-22, which means equipment, gauges, hoses and recovery machines
+must all be rated for it. R-410A is a near azeotropic blend and must always be
+charged into the system as a liquid, never as a vapour, or the blend will
+fractionate and the composition will shift.
+
+R-32 is a single component refrigerant with a global warming potential of 675.
+It is classified A2L, meaning mildly flammable. It requires leak detection and
+specific installation practices but is increasingly common in new equipment
+because of its much lower environmental impact.
+
+R-454B is an A2L blend with a global warming potential of around 466. It is
+being adopted widely as the replacement for R-410A in new residential
+equipment manufactured from 2025 onward.
+
+Refrigerants must never be mixed. A system that has been charged with the
+wrong refrigerant, or topped up with a different one, must have its entire
+charge recovered, then be evacuated to a deep vacuum, then recharged with the
+correct refrigerant by weight.
+
+Venting refrigerant to the atmosphere is illegal under Section 608 of the
+Clean Air Act. Technicians must hold EPA Section 608 certification to purchase
+or handle refrigerant.
+
+
+SECTION 3: SUPERHEAT AND SUBCOOLING
+
+Superheat is the amount of heat added to refrigerant vapour above the
+temperature at which it boiled. To measure it, take the suction line pressure,
+convert that pressure to a saturation temperature using a pressure temperature
+chart or app, then measure the actual line temperature and subtract the
+saturation temperature from it.
+
+Target superheat on a fixed orifice system at the evaporator outlet is
+typically eight to twelve degrees Fahrenheit, though the correct target
+changes with indoor wet bulb and outdoor dry bulb temperature. Manufacturer
+charging charts should be used where available.
+
+Low superheat means the evaporator is being overfed with refrigerant. The
+refrigerant is not fully boiling before it leaves the coil, so liquid is
+travelling back toward the compressor. This condition is called flooding and
+it is one of the fastest ways to destroy a compressor.
+
+High superheat means the evaporator is being underfed. Common causes are an
+undercharge, a restriction in the liquid line, a failed metering device, or a
+plugged filter drier.
+
+Subcooling is the amount of heat removed from liquid refrigerant below its
+condensing temperature. Measure the liquid line pressure, convert to
+saturation temperature, then subtract the actual liquid line temperature from
+that saturation temperature.
+
+Target subcooling on a TXV system is typically ten to fifteen degrees
+Fahrenheit, measured at the liquid line leaving the condenser.
+
+Low subcooling usually indicates an undercharge or a liquid line restriction.
+High subcooling usually indicates an overcharge or a restricted metering
+device holding refrigerant back in the condenser.
+
+The rule is simple. On a system with a TXV, charge by subcooling. On a system
+with a fixed orifice or capillary tube, charge by superheat.
+
+
+SECTION 4: AIRFLOW
+
+The standard design airflow for residential cooling is four hundred cubic feet
+per minute per ton of capacity. In humid climates this is often reduced to
+three hundred and fifty cubic feet per minute per ton, which lets the coil run
+slightly colder and remove more moisture from the air.
+
+One ton of cooling capacity equals twelve thousand British thermal units per
+hour.
+
+Low airflow causes the evaporator coil to operate colder than designed. If the
+coil surface drops below freezing, condensate turns to ice and the coil
+freezes solid. Capacity collapses and liquid refrigerant may return to the
+compressor once the coil is fully blocked.
+
+The most common causes of low airflow, in the order a technician should check
+them, are a dirty air filter, a dirty evaporator coil, closed or blocked
+supply registers, crushed or undersized flexible ductwork, a dirty blower
+wheel, and a failing blower motor or capacitor.
+
+Total external static pressure should be measured across the air handler using
+a manometer, with probes placed in the return before the filter and in the
+supply after the coil. Most residential equipment is rated for one half inch
+of water column total external static pressure. A reading above zero point
+eight inches indicates a serious duct restriction that must be addressed
+before any charging work is done.
+
+Measuring static pressure before touching the gauges is a habit that separates
+experienced technicians from parts changers. Airflow problems produce
+refrigerant readings that look exactly like charge problems.
+
+
+SECTION 5: EFFICIENCY RATINGS
+
+SEER stands for Seasonal Energy Efficiency Ratio. It measures cooling output
+over a typical cooling season divided by the electrical energy used in the
+same period. Higher numbers mean better efficiency.
+
+SEER2 replaced SEER in the United States on 1 January 2023. The test procedure
+changed to use a higher external static pressure, which better reflects real
+installed conditions. Because the test is harder, SEER2 numbers run roughly
+four and a half percent lower than the old SEER number for identical
+equipment. A unit formerly rated 15 SEER is approximately 14.3 SEER2.
+
+The current minimum efficiency for residential split system air conditioners
+is 13.4 SEER2 in the northern region and 14.3 SEER2 in the southern region.
+The southern region carries a higher minimum because of longer cooling
+seasons.
+
+HSPF, and its replacement HSPF2, measure heating season performance for heat
+pumps using the same seasonal approach.
+
+EER measures efficiency at a single fixed operating condition, usually ninety
+five degrees Fahrenheit outdoor temperature. It is useful for comparing
+performance on design days rather than across a season.
+
+
+SECTION 6: COMMON SERVICE FAULTS
+
+A frozen evaporator coil is almost always caused by low airflow or low
+refrigerant charge. Check the filter first, then measure airflow and static
+pressure, and only then connect gauges. The system must be fully thawed before
+any pressure readings will be meaningful.
+
+Compressor short cycling, where the unit starts and stops rapidly, can be
+caused by an oversized system, a low pressure switch tripping on undercharge,
+a dirty condenser coil raising head pressure until the high pressure switch
+opens, a failing run capacitor, or a thermostat located in a poor position.
+
+Water leaking from the indoor unit is usually a blocked condensate drain line.
+Clear the line with nitrogen or a wet vacuum, then check that the drain pan is
+not cracked and that the float switch operates correctly. A frozen coil that
+has thawed can also overflow the pan.
+
+Warm air from the supply registers while the outdoor unit appears to run
+suggests a failed run capacitor, a tripped high pressure switch, a burnt
+contactor, or a complete loss of refrigerant charge.
+
+An outdoor unit that hums but does not start is most often a failed run
+capacitor. A capacitor that has swollen, leaked, or reads significantly below
+its rated microfarad value should be replaced.
+
+A tripping breaker points to a shorted compressor winding, a grounded
+compressor, a seized fan motor, or a loose connection creating heat at the
+lug. Never simply reset a breaker repeatedly without diagnosing the cause.
+
+Ice forming on the liquid line rather than the suction line indicates a
+restriction at that point, commonly a plugged filter drier or a kinked line.
+
+
+SECTION 7: EVACUATION AND CHARGING
+
+After any repair that opens the sealed system, the system must be evacuated
+to remove air and moisture. Moisture combines with refrigerant and oil to form
+acids that destroy the compressor from the inside.
+
+Evacuate to five hundred microns or lower using a micron gauge, not the
+compound gauge on a manifold set. Isolate the pump and confirm the reading
+holds below one thousand microns for several minutes. A reading that rises
+steadily indicates a leak. A reading that rises and then levels off indicates
+remaining moisture.
+
+Charge by weight whenever the manufacturer provides a charge figure and the
+line set length is known. Add or subtract refrigerant for line set length
+according to the data plate. Verify the final charge using subcooling on a TXV
+system or superheat on a fixed orifice system.
+
+Always charge liquid refrigerant into the liquid line with the system off, or
+meter liquid slowly into the suction line through a metering device while the
+system runs. Never allow raw liquid into the suction line of a running
+compressor.
